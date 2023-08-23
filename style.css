@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+
+    padding: 1px;
+}
+
+.HTML {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #d8f0fa;
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+#main-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    background-color: hsl(198, 76%, 77%);
+    
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+
+    margin: 0px 23px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-style: bold;
+
+}
+
+
+
+#main-div li:hover {
+    transform: scale(1.3);
+    
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.right {
+    width: 70%;
+}
+
+.firstsection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 140px 0px
+}
+
+.firstsection div> {
+    width: 30%;
+
+}
+
+.leftsection {
+    font-size: 3rem;
+}
+     
+.yellow {
+    color: rgb(15, 147, 204);
+}
+
+#element {
+    color:rgb(15, 147, 204);
+
+}
+
+    #about {
+      
+        padding: 70PX 0px;
+}
+#about h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+.about-body {
+    background-color: white;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    transition: transform .2s;
+
+}
+
+
+.about-body :hover{
+    transform: scale(1.02);
+    
+}
+.about-left{
+    width: 2%;
+    display: flex;
+    align-items: center;
+    
+}
+.about-details{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+.about-details h4{
+    line-height: 5px;
+}
+#user-details-intro{
+     text-align: center;
+
+}
+
+
+
+
+
+
+
+
+.rightsection {
+ background-color: white;
+ box-sizing: border-box;
+ border-radius: 10PX;
+
+}
+
+.btn {
+    padding: 5px 10px;
+    margin: 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(240, 86%, 91%);
+    font-size: 1rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 7px;
+
+}
+
+#SKILLS {
+    padding: 15px 470px;
+    margin: 25PX 100PX;
+    color: BLACK;
+}
+
+.skills-body {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: 25PX 0PX;
+    padding: 20PX 0PX;
+}
+
+
+
+
+.skill-card{
+    background-color: white;
+    display: flex;  
+ box-shadow: #d8f0fa 0px 3px 8px;
+ flex-direction: column;
+ border-radius: 10px;
+ align-items: center;
+ margin: 0px 50px;
+ padding: 10px 7px;
+ transition: transform .2s;
+}
+ /*contact section start here */
+#contact hr{
+    height: 2px;
+    background-color: white;
+    border: 5px;
+}
+.contact-body{
+    border: 5px solid white;
+    border-radius:5px solid white;
+    border-radius: 20px;
+    margin: 25px 150px;
+    padding: 18px 0px;
+    width: 32%;
+}
+.form-group{
+        padding: 13px 116px;
+    display: flex;
+    margin: 0PX 15px;
+    justify-content: space-between;
+
+}
+#contact h1{ text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0px;}
+
+.form-group input{
+    text-align: center;
+    border: 2px solid white;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;}
+
+    
+    .btn2{padding: 5px 101px;
+         margin: 8px 90px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: hsl(240, 86%, 91%);
+        font-size: 1rem;
+        box-sizing: border-box;
+        cursor: pointer;
+        border-radius: 7px;
+
+    }
+    #contact-right{
+        border: 5px solid white;
+        border-radius:5px solid white;
+        border-radius: 20px;
+        margin: 25px 150px;
+        padding: 18px 0px;
+        width: 32%;
+   display: block;}
+
