@@ -101,6 +101,16 @@
         padding: 16px 25px;
         width: 50%
     }
+
+    #contact-right {
+        border: 5px solid white;
+        border-radius: 5px solid white;
+        border-radius: 20px;
+        margin: 5px 55px;
+        padding: 20px 17px;
+        width: 60%;
+        display: block;
+    }
 }
 
 /* for small screen */
@@ -121,12 +131,12 @@
     }
 
     #right {
-        width: 82%;
+        width: 90%;
         font-size: 16px;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-right: 7%;
+        padding-right: 1%;
 
     }
 
@@ -228,7 +238,7 @@
         border-radius: 20px;
         margin: 5px 55px;
         padding: 20px 17px;
-        width: 54%;
+        width: 60%;
         display: block;
     }
 
@@ -250,95 +260,3 @@
         margin: 0px 8px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media screen and (max-width:1200px) {
-    .left{
-        padding: 5px;
-        margin-right: 44px;
-    }   .firstsection{
-            flex-direction: column-reverse;
-        }
-        .skills-body {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px 10px;
-    }
-.skill-card{
-    margin: 1px 5px;
-    padding: 7px 0px;
-}
-    #SKILLS {
-        padding: 15px 30px;
-        margin: 25PX 100PX;
-        color: BLACK;
-    }
-    #main-div {
-        position: fixed;
-        width : 100%;
-         justify-content: center;
-         align-items: center;
-         display: flex;
-         flex-direction: column;
-         height: 70px;
-         overflow: hidden;
-    }
-
-    .leftsection {
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    #right{
-        width: 100%;
-        display: flex;
-        font-size: 16px
-      }
-      #right ul li {
-        margin: 0px 5px;
-    }
-    #about{
-        padding: 0PX 66px;
-        margin: 31px 22px
-    }
-     .form-group{ padding: 15px 15px;
-    display: flex;
-    margin: 2PX 3px;
-    justify-content: space-between;}
-    .btn2{
-       padding:  6px 30px;
-    margin: 10px 0px;
-    }
-    .contact-body{
-        margin: 25px 50px;
-        padding: 16px 25px;
-        width: 50%
-    }
-   #contact-right{
-    
-        width: 60%;
-        margin: 5px 16px;
-}
-   
-
-      }       */
